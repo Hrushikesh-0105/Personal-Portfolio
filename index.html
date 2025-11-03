@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Hrushikesh Musaloj</title>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav_contianer">
+            <a href="#" class="nav__logo">
+                Hrushikesh <span>Musaloj</span>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Featured</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <!-- close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container contianer grid" >
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            Hello, <span>I'm</span>
+                        </h3>
+                        <h1 class="home__title">Hrushikesh Musaloj</h1>
+                        <h3 class="home__education">CSE, VNIT 27</h3>
+                        <p class="home__description">
+                            I'm a passionate developer who loves turning ideas into functional and elegant digital experiences.
+                            From web apps to mobile solutions, I focus on creating smooth, efficient, and scalable products.
+                        </p>
+
+                        <a href="#contact" class="button">Let's Talk</a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://linkedin.com/in/hrushikeshmusaloj" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="https://github.com/Hrushikesh-0105" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_hrushikesh__m_/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a> 
+                    </div>
+                </div>
+
+                <div class="blob" id="home-blob">
+                    <img src="assets/images/profile_photo.png" alt="Hrushikesh Musaloj">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="about__section section" id="about">
+        <div class="about__container container grid">
+            
+            <div class="about__blob-container">
+            <div class="blob" id="about-blob">
+                <img src="assets/images/profile_photo.png" alt="Hrushikesh Musaloj">
+            </div>
+            </div>
+
+            <div class="about__data">
+            <h2 class="section__title">About Me</h2>
+            <p class="about__description">
+                I'm Hrushikesh Musaloj, a Computer Science student at VNIT Nagpur, passionate about building efficient and scalable applications. I specialize in Flutter, Firebase, and full-stack development, creating user-friendly apps with clean design and strong backend logic. I currently serve as the App Dev Head at SyntaX and am an upcoming Summer Analyst at Goldman Sachs, driven by a passion for solving real-world problems through technology.
+            </p>
+            <a href="#contact" class="button">Contact Me</a>
+            </div>
+        </div>
+        </section>
+
+        <section class="education__section section" id="education">
+        <h2 class="section__title">Education</h2>
+
+        <div class="education__path">
+
+            <div class="edu__node">
+            <div class="edu__circle">
+                <h3>Undergraduate</h3>
+                <h4>VNIT Nagpur</h4>
+                <p>B.Tech in Computer Science<br>CGPA: 9.26</p>
+            </div>
+            </div>
+            
+
+            <div class="edu__connector"></div>
+
+            <div class="edu__node">
+            <div class="edu__circle">
+                <h3>Intermediate</h3>
+                <h4>Sri Chaitanya Junior College</h4>
+                <p>Grade: 98%</p>
+            </div>
+            </div>
+
+            <div class="edu__connector"></div>
+            <div class="edu__node">
+            <div class="edu__circle">
+                <h3>School</h3>
+                <h4>Takshasila Public School</h4>
+                <p>Grade: 95%</p>
+            </div>
+            </div>
+
+        </div>
+        </section>
+        <section class="skills__section section" id="skills">
+            <h2 class="section__title">Skills & Technologies</h2>
+            <div class="skills__container" id="skills-container">
+                <!-- dynamically loaded -->
+            </div>
+        </section>
+
+        <section class="projects__section section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <div class="projects__container" id="projects-container">
+                <!-- dynamically loaded  -->
+            </div>
+        </section>
+        
+        <section class="featured__section section" id="featured">
+            <h2 class="section__title">Featured</h2>
+            <div class="featured__container" id="featured-container">
+                <!-- dynamically loaded -->
+            </div>
+        </section>
+
+        <section class="contact__section section" id="contact">
+            <h2 class="section__title">Get In Touch</h2>
+            <div class="contact__container">
+                <form class="contact__form" id="contact-form" type="submit">
+                    <input type="text" placeholder="Your Name" class="contact__input" required id="name">
+                    <input type="email" placeholder="Your Email" class="contact__input" required id="email">
+                    <input type="text" placeholder="Subject" class="contact__input" required id="subject">
+                    <textarea placeholder="Your Message" class="contact__textarea" required id="message"></textarea>
+                    <button type="submit" class="button contact__button">Send Message</button>
+                </form>
+                <div class="contact__info">
+                    <div class="contact__info-item">
+                        <i class="ri-mail-line contact__info-icon"></i>
+                        <span class="contact__info-text">mhrushikesh0105@gmail.com</span>
+                    </div>
+                    <div class="contact__info-item">
+                        <i class="ri-phone-line contact__info-icon"></i>
+                        <span class="contact__info-text">+91 9347808844</span>
+                    </div>
+                    <div class="contact__info-item">
+                        <i class="ri-map-pin-line contact__info-icon"></i>
+                        <span class="contact__info-text">Hyderabad, Telangana, India</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+    <div class="footer__container container">
+        <p class="footer__text">
+        © 2025 Hrushikesh Musaloj. All rights reserved.
+        </p>
+
+        <div class="footer__social">
+        <a href="https://linkedin.com/in/hrushikeshmusaloj" target="_blank" class="footer__social-link">
+            <i class="ri-linkedin-fill"></i>
+        </a>
+        <a href="https://github.com/Hrushikesh-0105" target="_blank" class="footer__social-link">
+            <i class="ri-github-line"></i>
+        </a>
+        <a href="https://www.instagram.com/_hrushikesh__m_/" target="_blank" class="footer__social-link">
+            <i class="ri-instagram-line"></i>
+        </a>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

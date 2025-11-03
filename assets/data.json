@@ -1,0 +1,106 @@
+{
+    "featured": {
+        "Resume": {
+            "link": "https://drive.google.com/file/d/1vFK_53srEDFLmANYZJLNF3u38uN1312B/view?usp=drive_link",
+            "description": "View my complete resume with all my experience and qualifications",
+            "image": "assets/images/resume.png"
+        },
+        "Codolio": {
+            "link": "https://codolio.com/profile/Hrushikesh%20Musaloj",
+            "description": "Checkout My Codolio Profile",
+            "image": "assets/images/codolio.png"
+        },
+        "LeetCode": {
+            "link": "https://leetcode.com/u/hrushikesh0105/",
+            "description": "Check out my problem-solving journey with 300+ problems solved",
+            "image": "assets/images/leetcode.png"
+        },
+        "CodeChef": {
+            "link": "https://www.codechef.com/users/hrushikesh0105",
+            "description": "Competitive programming achievements and contest ratings",
+            "image": "assets/images/codeChef.png"
+        },
+        "CodeForces": {
+            "link": "https://codeforces.com/profile/hrushikeshm_0105",
+            "description": "Active participant in global programming contests",
+            "image": "assets/images/codeforces.png"
+        }
+        
+    },
+    "skills": [
+    {
+      "name": "C",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+    },
+    {
+      "name": "C++",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+    },
+    {
+      "name": "JavaScript",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+      "name": "Java",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+    },
+    {
+      "name": "Flutter",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+    },
+    {
+      "name": "Dart",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
+    },
+    {
+      "name": "Node.js",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+    },
+    {
+      "name": "Firebase",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+    },
+    {
+      "name": "MongoDB",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    },
+    {
+      "name": "Git",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    },
+    {
+      "name": "GitHub",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    },
+    {
+      "name": "Docker",
+      "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+    }
+  ],
+    "projects": [
+        {
+            "title": "Echo Note AI",
+            "description": "EchoNoteAI is your personal AI-powered meeting assistant. It records your online meetings and uses generative AI to summarize them — so you never miss a detail again.",
+            "image": "assets/images/echoNote.png",
+            "link": "https://github.com/Hrushikesh-0105/EchoNoteAI"
+        },
+        {
+            "title": "Gym Sync",
+            "description": "GymSync is a scalable, cross-platform gym management application built with Flutter. Designed for gym owners to easily manage memberships, renewals, and client communication, GymSync synchronizes data securely across devices using Firebase Google Authentication, Cloud Firestore, and SQLite for offline support.",
+            "image": "assets/images/gymSync.png",
+            "link": "https://github.com/Hrushikesh-0105/Gym-Sync"
+        },
+        {
+            "title": "Classroom Connect App",
+            "description": "In many institutes, booking a classroom for student or club activities required manual letters, approvals, and key handovers.Classroom Connect digitizes this process.",
+            "image": "assets/images/classroomConnect.png",
+            "link": "https://github.com/Hrushikesh-0105/CRC-Manager"
+        },
+        {
+            "title": "Family Expense Tracker (C, B-Trees)",
+            "description": "A modular, CLI-based expense tracking system designed for families, built using C and an efficient B-Tree structure for scalable storage, fast lookup, and persistent records.",
+            "image": "assets/images/btree.png",
+            "link": "https://github.com/Hrushikesh-0105/Family-Expense-Tracker"
+        }
+    ]
+}
